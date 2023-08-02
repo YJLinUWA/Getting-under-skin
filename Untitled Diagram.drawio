@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T13:49:30.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="jUPhxvPaoqtCHRzLsvnM" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T14:02:48.385Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="P_ijDnJ1RR-aAqoZG1G6" version="21.3.4" type="github">
   <diagram name="Page-1" id="i0baQxqrL5qXL9_FakRs">
     <mxGraphModel dx="774" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,10 +12,10 @@
         <mxCell id="rAxHHWuDPZSttXdw2epP-1" value="Networl Hub Network:&lt;br&gt;work as a data cache between wireless sensors and the main server in case of the absence of a network connection. Development of this module includesthe selection (or development) of software for data logging on the network server. The network server should be based on the Linux operating system (preferred Debian or Ubuntu).&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="180" y="170" width="220" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="rAxHHWuDPZSttXdw2epP-2" value="USB data logger module:&lt;br&gt;USB stick-like module with &lt;font color=&quot;#ff0000&quot;&gt;wireless communication, &lt;/font&gt;the log files are saved as&lt;font color=&quot;#ff0000&quot;&gt; CSV files on the computer&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="rAxHHWuDPZSttXdw2epP-2" value="USB data logger module:&lt;br&gt;USB stick-like module with &lt;font color=&quot;#ff0000&quot;&gt;wireless communication. &lt;br&gt;&lt;/font&gt;The log files are saved as&lt;font color=&quot;#ff0000&quot;&gt; CSV files &lt;/font&gt;on the computer. &lt;br&gt;The software should be able to &lt;font color=&quot;#ff0000&quot;&gt;run on Windows 7/10 (32-bit) &lt;/font&gt;without installation of external libraries." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="537.5" y="167.5" width="225" height="225" as="geometry" />
         </mxCell>
-        <mxCell id="rAxHHWuDPZSttXdw2epP-3" value="RS232 Data Logger Module" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="rAxHHWuDPZSttXdw2epP-3" value="RS232 Data Logger Module:&lt;br&gt;&amp;nbsp;It should be able to &lt;font color=&quot;#ff0000&quot;&gt;collect process data&lt;/font&gt; from the Inficon SQM-160 Rate/Thickness&lt;font color=&quot;#ff0000&quot;&gt; Monitor&lt;/font&gt; using serial port (RS232), analyze it (e.g. determine if a process is running), transfer it wirelessly to the network hub so the process results can be stored on the server." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="180" y="440" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="rAxHHWuDPZSttXdw2epP-4" value="Interlock device module" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
