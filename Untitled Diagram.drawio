@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T14:10:29.179Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4PkoKEwp32im5YWiXNOw" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T14:17:19.456Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="h8Nn58aDnw4r8ZIMULtM" version="21.3.4" type="github">
   <diagram name="Page-1" id="i0baQxqrL5qXL9_FakRs">
-    <mxGraphModel dx="774" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1106" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,19 +9,19 @@
             <mxPoint x="80" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rAxHHWuDPZSttXdw2epP-1" value="Networl Hub Network:&lt;br&gt;work as a data cache between wireless sensors and the main server in case of the absence of a network connection. Development of this module includesthe selection (or development) of software for data logging on the network server. The network server should be based on the Linux operating system (preferred Debian or Ubuntu).&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;All credentials&lt;/font&gt; should be cached on the network hub in case of a temporary absence of a network connection" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="rAxHHWuDPZSttXdw2epP-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Networl Hub Network:&lt;/b&gt;&lt;/font&gt;&lt;br&gt;work as a data cache between &lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;u&gt;wireless sensors and the main server&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;. Development of this module includes the selection (or development) of software for data logging on the network server. The network server should be based on &lt;font color=&quot;#ff0000&quot;&gt;the Linux operating system (preferred Debian or Ubuntu).&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;All credentials&lt;/font&gt; should be cached on the network hub in case of a temporary absence of a network connection.&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&lt;u&gt;Firewall?&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="180" y="170" width="220" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="rAxHHWuDPZSttXdw2epP-2" value="USB data logger module:&lt;br&gt;USB stick-like module with &lt;font color=&quot;#ff0000&quot;&gt;wireless communication. &lt;br&gt;&lt;/font&gt;The log files are saved as&lt;font color=&quot;#ff0000&quot;&gt; CSV files &lt;/font&gt;on the computer. &lt;br&gt;The software should be able to &lt;font color=&quot;#ff0000&quot;&gt;run on Windows 7/10 (32-bit) &lt;/font&gt;without installation of external libraries." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="rAxHHWuDPZSttXdw2epP-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;USB data logger module:&lt;/font&gt;&lt;/b&gt;&lt;br&gt;USB stick-like module with &lt;font color=&quot;#ff0000&quot;&gt;wireless communication. &lt;br&gt;&lt;/font&gt;The log files are saved as&lt;font color=&quot;#ff0000&quot;&gt; CSV files &lt;/font&gt;on the computer. &lt;br&gt;The software should be able to &lt;font color=&quot;#ff0000&quot;&gt;run on Windows 7/10 (32-bit) &lt;/font&gt;without installation of external libraries." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="537.5" y="167.5" width="225" height="225" as="geometry" />
         </mxCell>
-        <mxCell id="rAxHHWuDPZSttXdw2epP-3" value="RS232 Data Logger Module:&lt;br&gt;&amp;nbsp;It should be able to &lt;font color=&quot;#ff0000&quot;&gt;collect process data&lt;/font&gt; from the Inficon SQM-160 Rate/Thickness&lt;font color=&quot;#ff0000&quot;&gt; Monitor&lt;/font&gt; using serial port (RS232), analyze it (e.g. determine if a process is running), transfer it wirelessly to the network hub so the process results can be stored on the server." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="rAxHHWuDPZSttXdw2epP-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;RS232 Data Logger Module:&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&amp;nbsp;It should be able to &lt;font color=&quot;#ff0000&quot;&gt;collect process data&lt;/font&gt; from the Inficon SQM-160 Rate/Thickness&lt;font color=&quot;#ff0000&quot;&gt; Monitor&lt;/font&gt; using serial port (RS232), analyze it (e.g. determine if a process is running), transfer it wirelessly to the network hub so the process results can be stored on the server." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="180" y="440" width="220" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="rAxHHWuDPZSttXdw2epP-4" value="Interlock device module:&lt;br&gt;&amp;nbsp;It should allow to unlock particular system (e.g. thermal evaporator, plasma asher) &lt;font color=&quot;#ff0000&quot;&gt;using UWA student and staff cards&lt;/font&gt;.&amp;nbsp;&lt;br&gt;users should be able to log in using login and password using &lt;font color=&quot;#ff0000&quot;&gt;the on-screen display.&lt;br&gt;&lt;/font&gt;&amp;nbsp;be able to log the equipment usage and store it on&lt;font color=&quot;#ff0000&quot;&gt; the server(?)&lt;/font&gt;. &lt;br&gt;And the device&#39;s status should be presented on the display. The control of the power supply outlet should be performed wirelessly (e.g. with Zigbee controlled power switch)." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="rAxHHWuDPZSttXdw2epP-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Interlock device module:&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&amp;nbsp;It should allow to unlock particular system (e.g. thermal evaporator, plasma asher) &lt;font color=&quot;#ff0000&quot;&gt;using UWA student and staff cards&lt;/font&gt;.&amp;nbsp;&lt;br&gt;users should be able to log in using login and password using &lt;font color=&quot;#ff0000&quot;&gt;the on-screen display.&lt;br&gt;&lt;/font&gt;&amp;nbsp;be able to log the equipment usage and store it on&lt;font color=&quot;#ff0000&quot;&gt; &lt;b&gt;&lt;u&gt;the server(?)&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;. &lt;br&gt;the &lt;font color=&quot;#ff0000&quot;&gt;device&#39;s status should be presented on the display&lt;/font&gt;. &lt;br&gt;The control of the power supply outlet should &lt;font color=&quot;#ff0000&quot;&gt;be performed wirelessly&lt;/font&gt; (e.g. with Zigbee controlled power switch)." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="540" y="440" width="220" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="rAxHHWuDPZSttXdw2epP-5" value="external server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rAxHHWuDPZSttXdw2epP-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;external server&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rAxHHWuDPZSttXdw2epP-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rAxHHWuDPZSttXdw2epP-1" target="rAxHHWuDPZSttXdw2epP-5">
@@ -45,13 +45,13 @@
             <mxPoint x="420" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rAxHHWuDPZSttXdw2epP-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rAxHHWuDPZSttXdw2epP-4" target="rAxHHWuDPZSttXdw2epP-2">
+        <mxCell id="rAxHHWuDPZSttXdw2epP-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#ff0000;" edge="1" parent="1" source="rAxHHWuDPZSttXdw2epP-4" target="rAxHHWuDPZSttXdw2epP-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="380" as="sourcePoint" />
             <mxPoint x="420" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rAxHHWuDPZSttXdw2epP-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rAxHHWuDPZSttXdw2epP-3" target="rAxHHWuDPZSttXdw2epP-4">
+        <mxCell id="rAxHHWuDPZSttXdw2epP-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="rAxHHWuDPZSttXdw2epP-3" target="rAxHHWuDPZSttXdw2epP-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="380" as="sourcePoint" />
             <mxPoint x="420" y="330" as="targetPoint" />
@@ -75,7 +75,7 @@
             <mxPoint x="420" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rAxHHWuDPZSttXdw2epP-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rAxHHWuDPZSttXdw2epP-3" target="rAxHHWuDPZSttXdw2epP-2">
+        <mxCell id="rAxHHWuDPZSttXdw2epP-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeColor=#ff0000;" edge="1" parent="1" source="rAxHHWuDPZSttXdw2epP-3" target="rAxHHWuDPZSttXdw2epP-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="480" as="sourcePoint" />
             <mxPoint x="420" y="430" as="targetPoint" />
